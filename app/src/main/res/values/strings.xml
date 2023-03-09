@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My TaskList</string>
+
+    <string name="task">Add new Task</string>
+
+    <string name="faelligkeit"> Mit dem Fälligkeitsdatum erhältst du eine Benachrichtigung, wenn dein ToDo mit einem Datum versehen wurde und diese demnächst abläuft. Sie erinnert dich daran, dass diese Aufgabe noch nicht erledigt wurde. Möchtest du diese Benachrichtigung in Zukunft nicht mehr erhalten, dann klicke hier auf deaktivieren!!!"
+    </string>
+
+    <string name="benachrichtigung">Du erhälst eine Benachrichtigung, wenn deine ToDos noch nicht abgehackt wurden. Sie erinnert dich daran, dass diese Aufgabe noch nicht erledigt wurde. Möchtest du diese Benachrichtigung in Zukunft nicht mehr erhalten, dann klicke hier auf deaktivieren!!!"
+    </string>
+
+    <string name="name"> Dilan Kirak</string>
+    <string name="anschrift"> Spekteweg 51</string>
+    <string name="anschrift2">Berlin 13583</string>
+    <string name="telefon">Telefon: 017630770562</string>
+    <string name="email">Email: s_kirak22@hwr-berlin.de</string>
+    <string name="studi">Studiengang: Wirtschaftinformatik</string>
+    <string name="hwr">Hochschule: Hochschule für Wirtschaft und Recht (HWR)</string>
+
+
+    <string name="ToDo">My ToDo-Lists</string>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#E1D19380</color>
+    <color name="purple_500">#CBF4A38A</color>
+    <color name="purple_700">#000000</color>
+    <color name="teal_200">#726BD8</color>
+    <color name="teal_700">#6C63B8</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="sendbtn">#F49D82</color>
+    <color name="task">#C3FDE0DE</color>
+    <color name="background">#ABEFADA8</color>
+    <color name="lists">#BEDDB9C6</color>
+    <color name="beige">#D8E6AD81</color>
+    <color name="red">#FF8A80</color>
+    <color name="teal">#A5796B</color>
+    <color name="button">#E6F8E3A2</color>
+    <color name="background2">#7EFFC1BC</color>
+</resources>

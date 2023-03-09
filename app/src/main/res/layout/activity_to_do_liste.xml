@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".ToDoListe"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/toDoLogo"
+            android:layout_width="258dp"
+            android:layout_height="match_parent"
+            android:padding="17dip"
+            android:text="@string/ToDo"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.106" />
+
+        <ImageView
+            android:id="@+id/btnsignout"
+            android:layout_width="64dp"
+            android:layout_height="56dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/signout" />
+
+        <ImageView
+            android:id="@+id/btnsettings"
+            android:layout_width="63dp"
+            android:layout_height="56dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/settings"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="564dp"
+        android:layout_weight="100"
+        android:padding="16dip"
+        tools:listitem="@layout/task_row"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:padding="16dip"
+        android:background="@color/background"
+        >
+
+        <EditText
+            android:id="@+id/newtask"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_marginEnd="16dip"
+            android:hint="@string/task"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            />
+
+        <ImageView
+            android:id="@+id/btnsend"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:src="@mipmap/send"
+            app:tint="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

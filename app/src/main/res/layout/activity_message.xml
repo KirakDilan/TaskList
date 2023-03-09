@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".Message">
+
+
+    <TextView
+        android:id="@+id/datelogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Benachrichtigung"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182" />
+
+    <Button
+        android:id="@+id/btnback2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+        android:drawablePadding="4dp"
+        android:ems="7"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="355dp"
+        android:layout_height="275dp"
+        android:background="@drawable/btn_bg4"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:text="@string/benachrichtigung"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/datelogo"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/datelogo"
+        app:layout_constraintTop_toBottomOf="@+id/datelogo"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="336dp"
+        android:layout_height="61dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Benachrichtigung aktivieren/deaktivieren"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/infoText"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/infoText"
+        app:layout_constraintTop_toBottomOf="@+id/infoText"
+        app:layout_constraintVertical_bias="0.361" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
