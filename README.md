@@ -1,6 +1,6 @@
 # TaskList
 
-## Dilan Kirak 
+## Dilan Kirak 1925676 
 App Entwicklung mit Android - Projekt: TaskList
 
 Ziel meines Projektes ist eine App, in der man seine Tasks speichern kann. Diese App hat einen Login-Bereich mit einer Datenbankimplentierung.
